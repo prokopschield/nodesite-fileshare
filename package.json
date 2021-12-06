@@ -1,0 +1,15 @@
+{
+	"name": "nodesite-fileshare",
+	"description": "A file-sharing website integrated with nodesite-cdn",
+	"version": "0.0.0",
+	"main": "lib/build.js",
+	"author": "Prokop Schield",
+	"devDependencies": {
+		"@types/node": ">=14"
+	},
+	"keywords": [],
+	"license": "GPL-3.0-or-later",
+	"dependencies": {
+		"nsblob": "^0.2.9"
+	}
+}
