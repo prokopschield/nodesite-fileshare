@@ -5,7 +5,9 @@
 	"main": "lib/build.js",
 	"author": "Prokop Schield",
 	"devDependencies": {
-		"@types/node": ">=14"
+		"@types/node": ">=14",
+		"nsmt": "^0.1.10",
+		"plscommit": "^1.0.0-2"
 	},
 	"keywords": [],
 	"license": "GPL-3.0-or-later",
