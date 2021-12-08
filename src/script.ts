@@ -157,7 +157,7 @@ document.querySelector('#upload')?.addEventListener('click', () => {
 				description: `type: ${file.type || ext}, size: ${get_size_s(
 					file.size
 				)}, last modified: ${new Date(file.lastModified)}`,
-				name: file.name,
+				name: file.name.replace(/[^a-z0-9\-\.]/gi, ''),
 				hash,
 				ext,
 				li,
