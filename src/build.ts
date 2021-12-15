@@ -12,6 +12,7 @@ export default async function build() {
 	const index = fs
 		.readFileSync(path.resolve(__filename, '../..', 'src', 'index.html'))
 		.toString()
+		.trim()
 		.replace('%SCRIPT%', `${script}.js`)
 		.replace('%STYLE%', `${style}.css`);
 	process.stdout.write(await nsblob.store(index));
