@@ -16,6 +16,8 @@ export default async function build() {
 		.replace('%SCRIPT%', `${script}.js`)
 		.replace('%STYLE%', `${style}.css`);
 	process.stdout.write(await nsblob.store(index));
+	process.stderr.write('\n');
+	nsblob.socket.close();
 }
 
 build();
