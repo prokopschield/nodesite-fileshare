@@ -61,7 +61,7 @@ function render(file: file_t) {
 	file.li.appendChild(delb);
 
 	const anchor = document.createElement('a');
-	anchor.href = `${file.name}/${file.hash}.${file.ext}`;
+	anchor.href = `${file.hash}.${file.ext}`;
 	anchor.innerHTML = file.alias || file.name;
 	file.li.appendChild(anchor);
 
