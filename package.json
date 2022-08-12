@@ -12,6 +12,6 @@
 	"keywords": [],
 	"license": "GPL-3.0-or-later",
 	"dependencies": {
-		"nsblob": "^0.2.9"
+		"nsblob": "^0.2.13"
 	}
 }
